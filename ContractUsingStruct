@@ -3,6 +3,8 @@ pragma solidity 0.5.1;
 contract ContractUsingStruct{
     
     Person[] public people;
+    
+    //state variable
     uint256 public peopleCount;
     
     struct Person{
